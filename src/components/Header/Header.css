@@ -1,0 +1,51 @@
+
+
+ .header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 15px 30px;
+
+  background-color: transparent;
+
+  color: #ffffff;
+
+}
+
+.logoImg {
+
+  display: inline-block;
+
+  width: 160px;
+
+  height: 25px;
+
+  line-height: 26px;
+
+  font-size: 16px;
+
+  
+
+}
+
+.nav a {
+
+  color: #ffffff;
+
+  margin-left: 20px;
+
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+
+}
+
+.nav a:hover {
+
+    text-decoration: underline;
+
+}
