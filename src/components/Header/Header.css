@@ -8,11 +8,13 @@
 
   align-items: center;
 
-  padding: 15px 30px;
+  padding: 47px 200px;
 
   background-color: transparent;
 
-  color: #ffffff;
+  color: #fff;
+
+  font-family: 'gilroy', sans-serif;
 
 }
 
@@ -20,7 +22,7 @@
 
   display: inline-block;
 
-  width: 160px;
+  width: 180px;
 
   height: 25px;
 
@@ -28,19 +30,37 @@
 
   font-size: 16px;
 
+  color: #fff;
+
   
+
+}
+
+.nav {
+
+    margin-right: 23px;
 
 }
 
 .nav a {
 
-  color: #ffffff;
+  color: #f13c51;
 
   margin-left: 20px;
 
   text-decoration: none;
 
   transition: color 0.3s ease;
+
+  font-size: 20px;
+
+  letter-spacing: 1px;
+
+  line-height: 16px;
+
+  font-weight: 600;
+
+  font-family: 'outfit', sans-serif;
 
 }
 
@@ -49,3 +69,62 @@
     text-decoration: underline;
 
 }
+
+
+
+.learn,
+.download {
+
+    margin-right: 18px;
+
+}
+
+
+.line {
+
+  width: 100%;
+
+  background: #EE4055;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 58px;
+
+  color: #fff;
+
+  font-size: 21px;
+
+  font-weight: 500;
+
+  margin-top: -10px;
+
+  font-family: 'outfit', sans-serif;
+
+
+}
+
+
+.icon {
+
+  font-size: 30px;
+
+  font-weight: 700;
+
+  vertical-align: middle;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-left: -5px;
+
+  color: #f13c51;
+
+}
+
