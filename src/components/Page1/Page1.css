@@ -98,6 +98,8 @@
 
     font-size: 24px;
 
+    margin-left: -165px;
+
 }
 
 .child1Icon {
@@ -114,9 +116,9 @@
 
     align-items: center;
 
-    width: 190px;
+    width: 135px;
 
-    height: 190px;
+    height: 135px;
 
     display: flex;
 
@@ -138,11 +140,13 @@
 
     align-items: center;
 
-    width: 190px;
+    width: 135px;
 
-    height: 190px;
+    height: 135px;
 
     display: flex;
+
+    position: relative;
 
 }
 
@@ -160,11 +164,13 @@
 
     align-items: center;
 
-    width: 190px;
+    width: 135px;
 
-    height: 190px;
+    height: 135px;
 
     display: flex;
+
+    position: relative;
 
 }
 
@@ -183,13 +189,187 @@
 
     align-items: center;
 
-    width: 190px;
+    width: 135px;
 
-    height: 190px;
+    height: 135px;
 
     display: flex;
 
+    position: relative;
+
 }
+
+
+.circle1-1 {
+
+  position: absolute;
+
+  top: -13px;
+
+  left: -8px;
+
+  width: 16px;
+
+  height: 16px;
+
+}
+.circle1-2 {
+
+  position: absolute;
+
+  bottom: 50px;
+
+  right: 10px;
+
+  width: 6px;
+
+  height: 6px;
+
+}
+.circle1-3 {
+
+  position: absolute;
+
+  top: -10px;
+
+  right: -10px;
+
+  width: 10px;
+
+  height: 10px;
+
+}
+
+
+.circle2-1 {
+
+    position: absolute;
+
+    top: 90px;
+
+    right: 80px;
+
+    width: 10px;
+
+    height: 10px;
+
+}
+
+.circle2-2 {
+
+    position: absolute;
+
+    top: 0px;
+
+    left: 0px;
+
+    width: 8px;
+
+    height: 8px;
+
+}
+
+.circle2-3 {
+
+    position: absolute;
+
+    width: 4px;
+
+    height: 4px;
+
+    top: 2px;
+
+    right: 15px;
+
+}
+
+.circle3-1 {
+
+    position: absolute;
+
+    top: -5px;
+
+    right: 80px;
+
+    width: 10px;
+
+    height: 10px;
+
+}
+
+.circle3-2 {
+
+    position: absolute;
+
+    top: 80px;
+
+    left: 0px;
+
+    width: 8px;
+
+    height: 8px;
+
+}
+
+.circle3-3 {
+
+    position: absolute;
+
+    width: 4px;
+
+    height: 4px;
+
+    top: 8px;
+
+    right: 5px;
+
+}
+
+
+.circle4-1 {
+
+    position: absolute;
+
+    top: 70px;
+
+    left: 66px;
+
+    width: 10px;
+
+    height: 10px;
+
+}
+
+.circle4-2 {
+
+    position: absolute;
+
+    top: -10px;
+
+    left: -10px;
+
+    width: 8px;
+
+    height: 8px;
+
+}
+
+.circle4-3 {
+
+    position: absolute;
+
+    width: 4px;
+
+    height: 4px;
+
+    top: 8px;
+
+    right: -15px;
+
+}
+
+
+
 
 .child1Txt,
 .child2Txt,
@@ -209,7 +389,7 @@
 .child3Txt h3,
 .child4Txt h3 {
 
-    font-size: 30px;
+    font-size: 34px;
 
     font-weight: 700;
 
@@ -235,13 +415,13 @@
 
     pointer-events: none;
 
-    transform: translate(1%, -150%);
+    transform: translate(-5%, -70%);
 
 }
 
 .tv {
 
-    transform: translate(1%, -165%);
+    transform: translate(1%, -75%);
 
     width: 30%;
 
@@ -251,16 +431,16 @@
 
     width: 48%;
 
-    transform: translate(1%, -95%);
+    transform: translate(1%, -35%);
 }
 
 .mic {
 
     width: 22%;
 
-    height: 20%;
+    height: 22%;
 
-    transform: translateY(-130%);
+    transform: translateY(-90%);
 
 }
 
@@ -269,15 +449,15 @@
 .child3Txt p,
 .child4Txt p {
 
-    font-size: 18px;
+    font-size: 19px;
 
     font-weight: 400;
 
-    line-height: 24px;
+    line-height: 28px;
 
     font-family: 'gilroy-light', sans-serif;
 
-    color: #e7e7e7e7;
+    color: #deddddcb;
 
     margin-top: 20px;
 
