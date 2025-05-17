@@ -1,53 +1,53 @@
 import React from "react";
 import "./Page2.css";
-import musicIcon from "../../assets/music.png";
-import controllerIcon from "../../assets/controller.png";
-import micIcon from "../../assets/mic.svg";
-import fileIcon from "../../assets/film.png";
+import eq from '../../assets/sliders.svg';
+import bars from '../../assets/bars.png';
+import presetIcon from '../../assets/list.png';
+import speaker from '../../assets/speaker.svg';
 import circle from "../../assets/circle.svg";
 import circle2 from "../../assets/circle2.svg";
 import circle3 from "../../assets/circle3.svg";
 
 const features = [
   {
-    icon: musicIcon,
+    icon: eq,
     circle: circle,
     circle2: circle2,
     circle3: circle3,
     alt: "music",
     className: "child1 child1Icon",
-    title: "Music",
-    text: "FxSound corrects the limitations of your devices and compressed audio.",
+    title: "EQ",
+    text: "Balanced your sound with our 9-band EQ with customizable center frequencies.",
   },
   {
-    icon: controllerIcon,
+    icon: bars,
     circle: circle,
     circle2: circle2,
     circle3: circle3,
     alt: "controller",
     className: "child2 child2Icon",
-    title: "Video Games",
-    text: "Surround sound to create full immersion into your virtual world.",
+    title: "Visualizer",
+    text: "Feel your music in a new way. ",
   },
   {
-    icon: fileIcon,
+    icon: speaker,
     circle: circle,
     circle2: circle2,
     circle3: circle3,
     alt: "tv",
     className: "child3 child3Icon",
-    title: "Tv and Movies",
-    text: "FxSound smooths and improves audio for your favorite shows and movies.",
+    title: "Effects",
+    text: "Boosted bass and volume that will make your neighbors complain.",
   },
   {
-    icon: micIcon,
+    icon: presetIcon,
     circle: circle,
     circle2: circle2,
     circle3: circle3,
     alt: "mic",
     className: "child4 child1Icon",
-    title: "Transcription",
-    text: "FxSound boosts your clarity to save your sanity. Rewind less, get paid more.",
+    title: "Presets",
+    text: "Presets professionally designed for music, gaming, movies, transcription, and more.",
   },
 ];
 
@@ -56,7 +56,7 @@ const Page2 = () => {
     <div className="page2">
       <div className="page2Content">
         <div className="page2Title">
-          <h1>Amazing sound for everything you listen to</h1>
+          <h1>Customize your sound to your exact taste</h1>
         </div>
         <div className="parent1">
           {features.map((feature, index) => (
