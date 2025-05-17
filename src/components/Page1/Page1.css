@@ -1,0 +1,286 @@
+
+
+.page1 {
+
+    min-height: 85vh;
+
+
+    padding-top: 85px;
+
+    background: #1D1D1D;
+
+}
+
+.parent1 {
+
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-rows: repeat(2, 1fr);
+
+    margin-top: 90px;
+
+    gap: 50px;
+
+    justify-items: center;
+
+    align-items: center;
+
+}
+
+
+.child1 {
+
+    grid-area: 1 / 1 / 2 / 2;
+
+    display: flex;
+
+}
+
+.child2 {
+
+    grid-area: 1 / 2 / 2 / 3;
+
+    display: flex;
+
+}
+
+.child3 {
+
+    grid-area: 2 / 1 / 3 / 2;
+
+    display: flex;
+
+}
+
+.child4 {
+
+    grid-area: 2 / 2 / 3 / 3;
+
+    display: flex;
+
+}
+
+.child1,
+.child2,
+.child3,
+.child4 {
+
+    width: 555px;
+
+}
+
+.page1Content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    max-width: 100%;
+    
+}
+
+
+.page1Title {
+
+    font-weight: 700;
+
+    letter-spacing: .8px;
+
+    color: #fff;
+
+    font-family: 'gilroy-bold', sans-serif;
+
+    line-height: 30px;
+
+    font-size: 24px;
+
+}
+
+.child1Icon {
+
+    background: url(../../assets/Rectangle.png);
+
+    background-repeat: no-repeat;
+
+    background-position: 0 0;
+
+    background-size: contain;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 190px;
+
+    height: 190px;
+
+    display: flex;
+
+    position: relative;
+
+}
+
+.child2Icon {
+
+    background: url(../../assets/Rectangle.png);
+
+    background-repeat: no-repeat;
+
+    background-position: 0 0;
+
+    background-size: contain;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 190px;
+
+    height: 190px;
+
+    display: flex;
+
+}
+
+.child3Icon {
+
+    background: url(../../assets/Rectangle.png);
+
+    background-repeat: no-repeat;
+
+    background-position: 0 0;
+
+    background-size: contain;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 190px;
+
+    height: 190px;
+
+    display: flex;
+
+}
+
+
+.child4Icon {
+
+    background: url(../../assets/Rectangle.png);
+
+    background-repeat: no-repeat;
+
+    background-position: 0 0;
+
+    background-size: contain;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 190px;
+
+    height: 190px;
+
+    display: flex;
+
+}
+
+.child1Txt,
+.child2Txt,
+.child3Txt,
+.child4Txt {
+
+    margin-left: 30px;
+
+    margin-top: 10px;
+
+
+
+}
+
+.child1Txt h3,
+.child2Txt h3,
+.child3Txt h3,
+.child4Txt h3 {
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    line-height: 29px;
+
+    font-family: 'outfit', sans-serif;
+
+    color: #fff;
+
+}
+
+.music {
+
+    width: 33%;
+    
+    vertical-align: middle;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    pointer-events: none;
+
+    transform: translate(1%, -150%);
+
+}
+
+.tv {
+
+    transform: translate(1%, -165%);
+
+    width: 30%;
+
+}
+
+.controller {
+
+    width: 48%;
+
+    transform: translate(1%, -95%);
+}
+
+.mic {
+
+    width: 22%;
+
+    height: 20%;
+
+    transform: translateY(-130%);
+
+}
+
+.child1Txt p,
+.child2Txt p,
+.child3Txt p,
+.child4Txt p {
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+    line-height: 24px;
+
+    font-family: 'gilroy-light', sans-serif;
+
+    color: #e7e7e7e7;
+
+    margin-top: 20px;
+
+    letter-spacing: 0.5px
+
+}
