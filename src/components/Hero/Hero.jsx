@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import Header from "../Header/Header";
+import Header from "../Header/Header.jsx";
 import heroImg from "../../assets/hero-img.png";
 
 const Hero = () => {
